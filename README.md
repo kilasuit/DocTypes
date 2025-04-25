@@ -226,3 +226,11 @@ It is important to Note (forgive the pun😛) that the art of note taking is ben
 I have written a little about the importance of note taking as part of [It's #TimeToTalk, But it's also #TimeToWrite](https://mhasl.me/2019/02/07/its-timetotalk-but-its-also-timetowrite/) which was a post tied in with the #TimeToTalkDay which occurs on the 7th February.
 
 It is also similarly important for mental cleansing, if you work in Software Development, and also elsewhere in life, to regularly spend time doing document related tasks, whether that be responing to or shredding documents, much like it is important in dealing with Emails & your ongoing Tasks list.
+
+## Want me to present about this?
+
+If so then please raise a [Presentation Request issue](https://github.com/kilasuit/DocTypes/issues/new?template=presentationRequest.yml) and leave me some details to get in contact with you & lets get this arranged!
+
+## Feedback
+
+Please make use of the issue templates & if one doesn't meet your needs then please feel free to raise a blank issue.
