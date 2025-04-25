@@ -1,0 +1,54 @@
+name: 📖 DocType Feedback
+description: Feedback about one of the docTypes
+title: "📖 Feedback on DocType:"
+labels: ["Config-or-Docs-OutDated"]
+projects: ["kilasuit-other-repos"]
+assignees:
+  - kilasuit
+body:
+- type: checkboxes
+  attributes:
+    label: Is there an existing issue for this?
+    description: Please search to see if an issue already exists for the bug you encountered.
+    options:
+    - label: I have searched the existing issues
+      required: true
+- type: textarea
+  id: DocType
+  attributes:
+    label: Summary
+    description: Which DocType you are providing feedback on?
+    placeholder: |
+      IINs, DINs, FINs, etc
+  validations:
+    required: true
+- type: textarea
+  attributes:
+    label: Suggested Updates
+    description: What needs updating in these files.
+    placeholder: |
+      [] - IIN has spelling mistakes
+      [] - IIN is missing key links 
+  validations:
+    required: true
+- type: textarea
+  attributes:
+    label: Anything else?
+    description: |
+      Any other comments, like did you like this project?
+      Have you used any of the linked docTypes from other repositories by @kilasuit to help you with your work?
+      Have you created your own IIN, DIN or FIN about this Project?
+      If no other comments, please put N/A or None
+  validations:
+    required: true
+- type: dropdown
+  attributes:
+    label: Intend to contribute fixes from your feedback on this IIN?
+    description: Intend to contribute this work?
+    options:
+    - "Yes, I intend to contribute this work & do not require any assistance"
+    - "Yes, I intend to contribute this work & but would like some assistance"
+    - "No, I do not intend to contribute this work"
+    - "No Updates required, just providing feedback"
+  validations:
+    required: true
