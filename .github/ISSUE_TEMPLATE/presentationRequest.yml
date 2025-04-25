@@ -1,8 +1,8 @@
 name: 📖 Presentation Request
 description: Request to Present about this repository
-title: "📖 Presentation Request: "
+title: "📖 Presentation Request: <where at...?> "
 labels: "PresentationRequest"
-projects: ["kilasuit-Presentation-Requests"] #this doesnt work & would rather use the `/kilasuit/projects/13` or for this to be able to be picked from (though I may just be missing a vscode ext for this....?) or need to properly read the docs lolz 😜
+projects: "kilasuit/13"
 assignees:
   - kilasuit
 body:
@@ -17,7 +17,7 @@ body:
   validations:
     required: true
 - type: textarea
-  id: Contact Link
+  id: ContactLink
   attributes:
     label: Contact link
     description: How to get in contact with you
@@ -30,12 +30,12 @@ body:
   validations:
     required: true
 - type: textarea
+  id: AdditionalInfo
   attributes:
     label: Anything else?
     description: |
-      Any other comments, like did you like this IIN?
-      Have you used this IIN to help you with your work?
-      Have you created your own IIN to comment about the one/s you are providing feedback on?
+      Any other comments, like did you like this Project?
+      Have you used this Project & linked projects to help you with your work?
       If no other comments, please put N/A or None
   validations:
     required: true
