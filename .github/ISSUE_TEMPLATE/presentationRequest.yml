@@ -1,8 +1,8 @@
 name: 📖 Presentation Request
 description: Request to Present about this repository
 title: "📖 Presentation Request: <where at...?> "
-labels: "PresentationRequest"
-projects: "kilasuit/13"
+labels: ["PresentationRequest"]
+projects: ["kilasuit/13"]
 assignees:
   - kilasuit
 body:
@@ -22,11 +22,18 @@ body:
     label: Contact link
     description: How to get in contact with you
     placeholder: |
-      Ideally you should learn about PGP & provide me your contact details via an encrypted message that can be decrypted only by you and me 
+      
+      I have this Contact Form : https://blog.kilasuit.com/contact-me 
+      If you use this, then submit this issue (to get the Issue number), 
+      then the form (as it requires a link to the issue)
+
+      If you filled that out, just put "I've filled out the contact form" here.
+
+      However, I would prefer if you could send me a PGP encrypted message pasted here.
       My Current PGP key is on my github profile readme. 
-      Ideally using your gh handle and this repo as a password i.e. kilasuit/DocTypes
-      Don't know about PGP? there are other services that you can use like temp.pm & intime I will build & run my own
-      Want me to walk through PGP with you? let me know and 
+
+      Don't know about PGP & want me to walk through PGP with you?
+      Use the contact form and we can set up a time to chat about it.
   validations:
     required: true
 - type: textarea
